@@ -10,12 +10,12 @@
 @import url('./container.css');
 
 /* Sections style */
-@import url('./navbar.css');
 @import url('./header.css');
-@import url('./layout.css');
+@import url('./hero.css');
+@import url('./classes.css');
 @import url('./team.css');
 @import url('./gallery.css');
-@import url('./benefits.css');
+@import url('./abouteus.css');
 @import url('./testimonial.css');
 @import url('./pricing.css');
 @import url('./footer.css');
