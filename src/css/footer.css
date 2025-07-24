@@ -1,0 +1,98 @@
+.footer {
+  background-color: #dfebeb;
+}
+.footer-main-container {
+  background-color: #f8fbfe;
+  border-radius: 16px;
+  padding: 32px;
+
+  row-gap: 48px;
+}
+.footer-news {
+  row-gap: 20px;
+}
+
+.footer-form {
+  border-radius: 12px;
+  padding: 8px 12px;
+  width: 279px;
+  height: 42px;
+  margin-bottom: 16px;
+
+  border: none;
+  background-color: rgba(13, 11, 10, 0.05);
+}
+.button-send {
+  min-width: 279px;
+  height: 46px;
+  border: none;
+  border-radius: 100px;
+  padding: 10px 24px;
+  background-color: rgba(13, 11, 10, 0.05);
+
+  margin-bottom: 12px;
+}
+/* стилізація плейсхолдера */
+.inp::placeholder {
+  color: black;
+}
+
+/* стилізація інпута в стані фокус */
+.inp:focus {
+  border-color: brown;
+}
+
+/* стилізація інпута при не валідному значенні */
+.inp:not(:placeholder-shown):invalid {
+  border-color: red;
+}
+
+/* стилізація інпута при валідному значенні */
+.inp:not(:placeholder-shown):valid {
+  border-color: green;
+}
+
+.text-valid,
+.text-invalid {
+  font-size: 14px;
+  padding-left: 20px;
+  margin-top: 4px;
+  display: none;
+}
+
+.text-valid {
+  color: green;
+}
+
+.text-invalid {
+  color: red;
+}
+
+/* стилізація інформаційного текста при валідному значенні в інпуті */
+.inp:not(:placeholder-shown):valid ~ .text-valid {
+  display: block;
+}
+
+/* стилізація інформаційного текста при не валідному значенні в інпуті */
+.inp:not(:placeholder-shown):invalid ~ .text-invalid {
+  display: block;
+}
+/* social */
+.social-link {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+/* logo */
+.logo-company-footer {
+  width: 84px;
+  height: 36px;
+  fill: #0d0b0a;
+}
+.footer-navigation {
+  row-gap: 40px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
