@@ -45,6 +45,7 @@
   font-style: 18px;
   line-height: 160%;
   color: #0d0b0a;
+  margin-top: 20px;
 }
 .team-member-occupation,
 .team-member-role {
@@ -68,6 +69,36 @@
 .social-link {
   width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.icon-social {
+
+@media screen and (min-width: 768px) {
+  .team-section {
+    padding-top: 40px;
+  }
+  .team-title-description {
+    margin-bottom: 40px;
+  }
+  .team-list {
+    gap: 24px;
+    max-width: 704px;
+  }
+  .team-member {
+    width: calc((100% - 24px) / 2);
+  }
+}
+@media screen and (min-width: 1336px) {
+  .team-section {
+    padding: 112px 0;
+  }
+  .team-list {
+    column-gap: 24px;
+    row-gap: 64px;
+    max-width: 1440px;
+  }
+  .team-member {
+    width: calc((100% - 48px) / 3);
+  }
 }
