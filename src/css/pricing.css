@@ -137,8 +137,10 @@
   transition: background-color 0.3s ease;
 }
 
-.modal-submit:hover {
-  opacity: 0.5;
+.modal-submit:hover,
+.modal-submit:focus {
+  background: rgba(13, 11, 10, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0);
 }
 
 /* Responsive */
