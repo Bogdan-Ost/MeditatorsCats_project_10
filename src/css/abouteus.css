@@ -1,0 +1,112 @@
+.aboutus {
+  padding: 64px 0;
+  background-color: #dfebeb;
+}
+
+.aboutus-title {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 20px;
+}
+.aboutus-text {
+  line-height: 1.6;
+  text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 48px;
+}
+.aboutus-list {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-bottom: 48px;
+}
+.aboutus-list-title {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #0d0b0a;
+  margin-bottom: 20px;
+}
+.aboutus-list-text {
+  line-height: 1.6;
+  text-align: center;
+  color: #0d0b0a;
+}
+.aboutus-btn {
+  border: 1px solid #c2d9fc;
+  border-radius: 100px;
+  padding: 10px 24px;
+  width: 343px;
+  height: 46px;
+  background-color: #c2d9fc;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #0d0b0a;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+.aboutus-partbtn-text {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .aboutus {
+    padding: 40px 0;
+    background-color: #f2fafa;
+  }
+  .aboutus-title {
+    margin-bottom: 24px;
+  }
+  .aboutus-text {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .aboutus-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .aboutus-list-item {
+    width: calc((100% - 24px) / 2);
+  }
+  .aboutus-list-title {
+    margin-bottom: 0;
+  }
+  .aboutus-partbtn-text {
+    display: inline;
+  }
+  .aboutus-btn {
+    width: 110px;
+    white-space: nowrap;
+  }
+}
+@media only screen and (min-width: 1336px) {
+  .aboutus {
+    padding: 112px 0;
+  }
+  .aboutus-title {
+    font-size: 52px;
+    margin-bottom: 24px;
+  }
+  .aboutus-list {
+    flex-wrap: nowrap;
+  }
+  .aboutus-list-title {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+  .aboutus-list-item {
+    /* min-width: 310px; */
+    width: 100%;
+  }
+}
