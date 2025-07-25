@@ -67,26 +67,17 @@ width: 100%;
 }
  .hero-btn-join:hover,
  .hero-btn-join:focus {
-background: #c2d9fc;
-    opacity: 0.5;
+background-color: rgba(13, 11, 10, 0.05);
+border: 1px solid #868584;
+   
  }
  
  .hero-btn-learn:hover,
  .hero-btn-learn:focus {
-    background: rgba(13, 11, 10, 0.05);
-    opacity: 0.5;
- }
- .hero-btn-join:active {
+    background-color: #c2d9fc;
     border: 1px solid #c2d9fc;
-    background-color: transparent;
-    opacity: 1;
  }
-  .hero-btn-learn:active {
-      border: 1px solid #868584;
-      opacity: 1;
-      background-color: transparent;
-  }
-
+ 
 @media screen and (min-width: 768px) {
     .hero-section  {
         max-width: 100%;
