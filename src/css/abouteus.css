@@ -58,6 +58,11 @@
 .aboutus-partbtn-text {
   display: none;
 }
+.aboutus-btn:hover,
+.aboutus-btn:focus {
+  background-color: rgba(13, 11, 10, 0.05);
+  border: 1px solid #868584;
+}
 
 @media only screen and (min-width: 768px) {
   .aboutus {
@@ -106,7 +111,6 @@
     margin-bottom: 24px;
   }
   .aboutus-list-item {
-    /* min-width: 310px; */
     width: 100%;
   }
 }
