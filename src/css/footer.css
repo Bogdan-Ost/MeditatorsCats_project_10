@@ -156,10 +156,6 @@ input:focus:-moz-placeholder {
 }
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
-  }
   .footer {
     background-color: #dfebeb;
     padding-top: 40px;
@@ -193,10 +189,6 @@ input:focus:-moz-placeholder {
 }
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1336px) {
-  .container {
-    max-width: 1440px;
-    padding: 0 64px;
-  }
   .footer {
     background-color: #dfebeb;
     padding-top: 64px;
