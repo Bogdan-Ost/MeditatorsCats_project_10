@@ -1,0 +1,139 @@
+.hero-section {
+   max-width: 100%;
+} 
+.hero-baner {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    position: relative;
+    display: block;
+} 
+.hero-box {
+    padding-top: 48px;
+    padding-bottom: 48px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.hero-title {
+font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    color: #0d0b0a;
+    display: block;
+    max-width: 343px;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #0d0b0a;
+        display: block;
+        max-width: 343px;
+        margin-bottom: 24px;
+}
+.hero-btn {
+    max-width: 329px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+}
+.hero-btn-join, .hero-btn-learn {
+display:inline-flex;
+align-items: center;
+justify-content: center;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+color: #0d0b0a;
+border-radius: 100px;
+padding: 10px 24px;
+width: 100%;
+
+}
+.hero-btn-join {
+    border: 1px solid #c2d9fc;
+    background-color: #c2d9fc;
+}
+.hero-btn-learn {
+        border: 1px solid rgba(255, 255, 255, 0);
+        background-color: rgba(13, 11, 10, 0.05);
+}
+ .hero-btn-join:hover,
+ .hero-btn-join:focus {
+background-color: rgba(13, 11, 10, 0.05);
+border: 1px solid #868584;
+   
+ }
+ 
+ .hero-btn-learn:hover,
+ .hero-btn-learn:focus {
+    background-color: #c2d9fc;
+    border: 1px solid #c2d9fc;
+ }
+ 
+@media screen and (min-width: 768px) {
+    .hero-section  {
+        max-width: 100%;
+    }
+    .hero-box {
+        padding-top: 24px;
+        padding-bottom: 24px; 
+        }
+    .hero-title {
+            max-width: 423px;
+                margin-bottom: 8px;
+            }
+    .hero-text {
+        font-size: 18px;
+        max-width: 641px;
+        margin-bottom: 32px;
+        display: block;
+
+            }
+    .hero-btn {
+    flex-direction: row;
+    justify-content: left;
+            }
+    .hero-btn-join, .hero-btn-learn {
+    width: 144px;
+    height: 46px;
+            }
+        }
+@media screen and (min-width: 1336px) {
+    .hero-section {
+        max-width: 100%;
+    }
+    .hero-box {
+        padding-top: 80px;
+        padding-bottom: 80px; 
+        flex-direction: row;
+        gap: 24px;
+    }
+    .hero-text-desktop {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-title {
+    font-size: 72px;
+    max-width: 644px;
+    margin-bottom: 0;
+    }
+           .hero-btn-join {
+         width: 113px;
+        white-space: nowrap;
+            }
+        
+        .hero-btn-learn {
+            width: 128px;
+            white-space: nowrap;
+            }
+       
+}
+        
