@@ -1,0 +1,117 @@
+.team-section {
+  background-color: #f2fafa;
+  padding: 64px 0;
+  color: #0d0b0a;
+}
+.team-title-tagline,
+.team-title,
+.team-title-description {
+  font-family: 'Sarabun', sans-serif;
+  text-align: center;
+}
+.team-title-tagline {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.team-title {
+  font-family: 'Cabin', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  margin-bottom: 20px;
+}
+.team-title-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 48px;
+}
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  max-width: 343px;
+}
+.team-member {
+  width: 100%;
+}
+.team-member-info {
+  text-align: center;
+}
+.team-member-name {
+  font-weight: 600;
+  font-style: 18px;
+  line-height: 160%;
+  color: #0d0b0a;
+  margin-top: 20px;
+}
+.team-member-occupation,
+.team-member-role {
+  font-weight: 400;
+  font-style: 16px;
+  line-height: 160%;
+  margin-bottom: 12px;
+}
+.team-member-role {
+  margin-bottom: 20px;
+}
+.member-socials-list {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+.member-socials-item {
+  width: 24px;
+  height: 24px;
+}
+.social-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-social {
+  width: 100%;
+  height: 100%;
+  fill: #0d0b0a;
+  transition: fill 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-social:hover,
+.icon-social:focus {
+  opacity: 0.5;
+}
+.icon-social:active {
+  opacity: 0.3;
+}
+
+@media screen and (min-width: 768px) {
+  .team-section {
+    padding-top: 40px;
+  }
+  .team-title-description {
+    margin-bottom: 40px;
+  }
+  .team-list {
+    gap: 24px;
+    max-width: 704px;
+  }
+  .team-member {
+    width: calc((100% - 24px) / 2);
+  }
+}
+@media screen and (min-width: 1336px) {
+  .team-section {
+    padding: 112px 0;
+  }
+  .team-list {
+    column-gap: 24px;
+    row-gap: 64px;
+    max-width: 1440px;
+  }
+  .team-member {
+    width: calc((100% - 48px) / 3);
+  }
+}
