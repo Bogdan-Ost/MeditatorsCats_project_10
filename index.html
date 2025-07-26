@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/YogaBloom-01/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/YogaBloom-01/favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-    rel="stylesheet" />
-  <title>YogaBloom</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-    integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script type="module" crossorigin src="/YogaBloom-01/index.js"></script>
-  <link rel="stylesheet" crossorigin href="/YogaBloom-01/assets/index-BTN7b59E.css">
-</head>
-  
-  
-
-
-  <main>
-    <!-- Loads the specified .html file -->
+    <title>YogaBloom</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script type="module" crossorigin src="/YogaBloom-01/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/YogaBloom-01/assets/index-DwgwplHE.css">
+  </head>
+  <body>
     
-    
-    <section class="section team-section">
+
+
+    <main>
+      <!-- Loads the specified .html file -->
+      
+      
+      <section class="section team-section">
     <div class="container team-container">
         <h3 class="team-title-tagline">Meet</h3>
         <h2 class="team-title">Our Team</h2>
@@ -282,7 +287,7 @@
         </ul>
     </div>
 </section>
-    <section class="gallery">
+      <section class="gallery">
   <div class="container">
     <h2 class="gallery-head">Breathe in the Space</h2>
     <p class="gallery-text">
@@ -402,7 +407,7 @@
   </div>
 </section>
 
-    <section class="aboutus">
+      <section class="aboutus">
   <div class="container">
     <h2 class="aboutus-title">Why Yoga Helps You</h2>
     <p class="aboutus-text">
@@ -448,8 +453,8 @@
   </div>
 </section>
 
-    
-    <section class="pricing">
+      
+      <section class="pricing">
   <div class="container">
     <p class="pricing-subtitle">Affordable</p>
     <h2 class="pricing-title">Pricing Plans</h2>
@@ -581,80 +586,135 @@
   </div>
 </section>
 
-  </main>
+      <!-- Modal 1 -->
+<div class="modal-backdrop is-open" id="modal1">
+  <div class="modal">
+    <button type="button" class="modal-close" data-modal-close>
+      <svg width="32" height="32">
+        <use href="/YogaBloom-01/assets/icons-CNrPM4p_.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h2 class="modal-title">Join Now!</h2>
+    <p class="modal-subtitle">One Session</p>
+    <p class="modal-price">$10</p>
+    <form class="modal-form">
+      <label class="modal-label">
+        Your Name
+        <input class="modal-input" type="text" name="name" placeholder="Name" />
+      </label>
+      <div class="modal-label-group">
+        <label class="modal-label group">
+          Email
+          <input
+            class="modal-input"
+            type="email"
+            name="email"
+            placeholder="E-mail"
+          />
+        </label>
+        <label class="modal-label group">
+          Phone number
+          <input
+            class="modal-input"
+            type="tel"
+            name="phone"
+            placeholder="Phone"
+            required
+          />
+        </label>
+      </div>
+      <button type="submit" class="modal-submit">Go to checkout</button>
+    </form>
+  </div>
+</div>
 
-  <footer class="footer container ">
-    <div class="footer-main-container column">
-        <div class="footer-news column">
-            <a href="#" class="logo">
-                <svg width="1" height="1" class="logo-company-footer ">
-                    <use href="../img/icons.svg#icon-company-logo"></use>
-                </svg>
-            </a>
-            <p class="footer-descr">Subscribe to our newsletter for the latest updates on our yoga courses and
-                events.
-            </p>
-            <form class="footer-form">
-                <div class="inp-wrp">
-                    <input class="footer-input" type="email" name="email" placeholder="Placeholder"
-                        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required>
-                    <p class="text-invalid">Error Text</p>
-                </div>
+<!-- Modal 2 -->
+<div class="modal-backdrop" id="modal2">
+  <div class="modal">
+    <button type="button" class="modal-close" data-modal-close>
+      <svg width="32" height="32">
+        <use href="/YogaBloom-01/assets/icons-CNrPM4p_.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h2 class="modal-title">Join Now!</h2>
+    <p class="modal-subtitle">8 Sessions Package</p>
+    <p class="modal-price">$65</p>
+    <form class="modal-form">
+      <label class="modal-label">
+        Your Name
+        <input class="modal-input" type="text" name="name" placeholder="Name" />
+      </label>
+      <div class="modal-label-group">
+        <label class="modal-label">
+          Email
+          <input
+            class="modal-input"
+            type="email"
+            name="email"
+            placeholder="E-mail"
+          />
+        </label>
+        <label class="modal-label">
+          Phone number
+          <input
+            class="modal-input"
+            type="tel"
+            name="phone"
+            placeholder="Phone"
+            required
+          />
+        </label>
+      </div>
+      <button type="submit" class="modal-submit">Go to checkout</button>
+    </form>
+  </div>
+</div>
 
-                <button class="button-footer" type="submit">Join</button>
-                <p class="footer-descr policy">By subscribing, you consent to our Privacy Policy and agree to receive
-                    updates.</p>
-            </form>
-            <p class="licence">© 2025 Yoga Studio. All rights reserved.</p>
-        </div>
-        <div class="footer-navigation column">
-            <div class="footer-nav-page">
-                <h3 class="footer-nav-title">Quick Links</h3>
-                <ul>
-                    <li><a href="#Yoga" class="quick-link text-link">Yoga Classes</a></li>
-                    <li><a href="#Team" class="quick-link text-link">Team</a></li>
-                    <li><a href="#Pricing" class="quick-link text-link">Pricing</a></li>
-                    <li><a href="#Contacts" class="quick-link text-link">Contacts</a></li>
-                </ul>
-            </div>
-            <div class="footer-nav-page">
-                <h3 class="footer-nav-title">Connect With Us</h3>
-                <ul>
-                    <li>
-                        <a href="https://www.facebook.com/" target="_blank" class="social-link text-link">Facebook
-                            <svg width="24" height="24">
-                                <use href="../img/icons.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/ " target="_blank" class="social-link text-link">Instagram
-                            <svg width="24" height="24">
-                                <use href="../img/icons.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/ " target="_blank" class="social-link text-link">LinkedIn
-                            <svg width="24" height="24">
-                                <use href="../img/icons.svg#icon-linkedIn"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/ " target="_blank" class="social-link text-link">YouTube
-                            <svg width="24" height="24">
-                                <use href="../img/icons.svg#icon-youtube"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <p class="footer-licence">© 2025 Yoga Studio. All rights reserved.</p>
-    </div>
-</footer>
+<!-- Modal 3 -->
+<div class="modal-backdrop" id="modal3">
+  <div class="modal">
+    <button type="button" class="modal-close" data-modal-close>
+      <svg width="32" height="32">
+        <use href="/YogaBloom-01/assets/icons-CNrPM4p_.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h2 class="modal-title">Join Now!</h2>
+    <p class="modal-subtitle">12 Sessions Package</p>
+    <p class="modal-price">$80</p>
+    <form class="modal-form">
+      <label class="modal-label">
+        Your Name
+        <input class="modal-input" type="text" name="name" placeholder="Name" />
+      </label>
+      <div class="modal-label-group">
+        <label class="modal-label">
+          Email
+          <input
+            class="modal-input"
+            type="email"
+            name="email"
+            placeholder="E-mail"
+          />
+        </label>
+        <label class="modal-label">
+          Phone number
+          <input
+            class="modal-input"
+            type="tel"
+            name="phone"
+            placeholder="Phone"
+            required
+          />
+        </label>
+      </div>
+      <button type="submit" class="modal-submit">Go to checkout</button>
+    </form>
+  </div>
+</div>
 
-</body>
+    </main>
 
+    
+
+  </body>
 </html>
