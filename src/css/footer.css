@@ -64,6 +64,7 @@
   max-width: 279px;
   height: 42px;
   outline: none;
+  margin-bottom: 16px;
   border: 1px solid rgba(255, 255, 255, 0);
   background-color: rgba(13, 11, 10, 0.05);
 }
@@ -173,6 +174,7 @@ input:focus:-moz-placeholder {
 
   .footer-input {
     max-width: 546px;
+    margin-bottom: 0;
   }
   .inp-wrp {
     flex-grow: 1;
