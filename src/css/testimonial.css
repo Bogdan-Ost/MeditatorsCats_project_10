@@ -28,7 +28,6 @@
   flex-direction: column;
   gap: 24px;
   align-items: center;
-  
 }
 .testimonials__item {
   display: flex;
@@ -36,9 +35,9 @@
   gap: 32px;
   flex-direction: column;
   border-radius: 24px;
-  padding: 12px; 
+  padding: 12px;
   background: #dfebeb;
-  max-width: 100%; 
+  max-width: 100%;
 }
 .testimonials__text {
   font-weight: 400;
@@ -46,10 +45,9 @@
   line-height: 1.6;
   text-align: center;
   color: #0d0b0a;
- max-width: 319px;
+  max-width: 319px;
   display: block;
   margin: 0 auto;
-  
 }
 .testimonials-text-phrase {
   display: inline;
@@ -59,7 +57,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
- 
 }
 .testimonials__avatar {
   width: 56px;
@@ -73,7 +70,6 @@
   line-height: 160%;
   text-align: center;
   color: #0d0b0a;
-  
 }
 .testimonials__position {
   font-family: 'Roboto', sans-serif;
@@ -94,8 +90,8 @@
     font-size: 40px;
     line-height: 1.2;
   }
-    .testimonials__list {
-      flex-wrap: wrap;
+  .testimonials__list {
+    flex-wrap: wrap;
   }
   .testimonials__item {
     width: 704px;
@@ -103,38 +99,37 @@
     /* min-height: 321px;
     height: auto; */
   }
-     .testimonials__item:nth-child(1),
-     .testimonials__item:nth-child(2) {
-       height: 356px;
-     }
-  
-     .testimonials__item:nth-child(3),
-     .testimonials__item:nth-child(4) {
-       height: 321px;
-     } 
+  .testimonials__item:nth-child(1),
+  .testimonials__item:nth-child(2) {
+    height: 356px;
+  }
+
+  .testimonials__item:nth-child(3),
+  .testimonials__item:nth-child(4) {
+    height: 321px;
+  }
   .testimonials__text {
     max-width: 100%;
-  } 
+  }
 }
 
-@media screen and (min-width: 1338px) {
+@media screen and (min-width: 1336px) {
   .testimonials {
-   padding-top: 112px;
-  padding-bottom: 112px; 
+    padding-top: 112px;
+    padding-bottom: 112px;
   }
- .testimonials__list {
-  flex-direction: row;
+  .testimonials__list {
+    flex-direction: row;
     justify-content: space-between;
-     }
+  }
 
   .testimonials__item {
-width: calc((100% - 24px) / 2);
+    width: calc((100% - 24px) / 2);
   }
-    .testimonials__text {
-  max-width: 100%;
-    } 
-.testimonials-text-phrase {
-  display: none; 
+  .testimonials__text {
+    max-width: 100%;
+  }
+  .testimonials-text-phrase {
+    display: none;
+  }
 }
-}
-
