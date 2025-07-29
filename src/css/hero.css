@@ -1,12 +1,14 @@
-.hero-section {
+.hero-section  {
    max-width: 100%;
-} 
-.hero-baner {
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
-    position: relative;
+padding-bottom: 48px;
+}
+.hero-baner,
+.hero-image {
+    width: 100%;
     display: block;
-} 
+    height: auto;
+}
+
 .hero-box {
     padding-top: 48px;
     padding-bottom: 48px; 
