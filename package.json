@@ -1,11 +1,11 @@
 {
-  "name": "YogaBloom-01",
+  "name": "MeditatorsCats_project_10",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/YogaBloom-01/",
+    "build": "vite build --base=/MeditatorsCats_project_10/",
     "preview": "vite preview"
   },
   "devDependencies": {
